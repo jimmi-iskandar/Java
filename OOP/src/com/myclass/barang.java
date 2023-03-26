@@ -12,9 +12,22 @@ package com.myclass;
         Stock_barang += jmltambah;
         System.out.println("stock barang berhasil ditambah : "+ jmltambah+" menjadi : " + Stock_barang + "\n");
     }
+
     public void kurang_stock(int jmlkurang){
         Stock_barang -= jmlkurang;
         System.out.println("Stock barang berhasil dikurangi : "+ jmlkurang + " menjadi : "+ Stock_barang + "\n");
+    }
+
+    public boolean cekStock(){
+        if (Stock_barang > 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public void infobarang(){
+        System.out.println("Barang : "+nama_barang+"\n"+"Harga : "+ harga_barang + "\n"+"Stock : "+ Stock_barang);
     }
 }
 

@@ -16,5 +16,9 @@ public class main {
 
         barang1.kurang_stock(10);
 
+
+        System.out.println("Stock tersedia : "+ barang1.cekStock());
+
+        barang1.infobarang();
     }
 }
