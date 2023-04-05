@@ -9,11 +9,12 @@ public class main {
     public static void main(String[] args) throws Exception {
         //instansiasi barang
         barang barang1 = new barang();
+        //akses properti dalam object
         barang1.nama_barang= "Shampoo";
         barang1.harga_barang= 500;
         barang1.Stock_barang= 100;
 
-
+        //call method in object
         barang1.tambah_stock(5);
 
         barang1.kurang_stock(10);

@@ -6,7 +6,7 @@ package com.myclass;
     //property / attribute
     public String nama_barang;
     public int harga_barang,Stock_barang;
-
+    
     //method
     public void tambah_stock(int jmltambah){
         Stock_barang += jmltambah;
