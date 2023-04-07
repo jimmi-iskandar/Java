@@ -11,7 +11,9 @@ public class login {
 
         windows.setSize(600, 400);
         windows.setTitle("Login");
-        background.setSize(600, 400);
+        windows.setLayout(null);
+        background.setLayout(null);
+        background.setSize(200, 300);
         background.setBackground(Color.BLUE);
 
         windows.setVisible(true);
